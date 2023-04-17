@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mission__con{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 4em 2em 3em;
+    position: relative;
+    background-image: url(/src/image/Vector\ Pattern-2.png), url(/src/image/VectorPatternb.png);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 230px 600px, 250px 500px;  
+}
+.mission__first{
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.mission__second{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    width: 23em;
+    justify-content: center;
+}
+.mission h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 125.5%;
+    letter-spacing: -0.05em;
+    color: #00084A;
+}
+.mission p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    opacity: 0.8;
+}
+.first{
+    margin-left: 2em;
+}
+.second{
+    text-align: end;
+    margin-right: 2em;
+}
+.second h2::before{
+    content: '+';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    box-shadow: 0px 13px 14px rgba(141, 0, 153, 0.63);
+    background: rgba(141, 0, 153, 0.63);
+    filter: drop-shadow(0px 16.5926px 27.2593px rgba(141, 0, 153, 0.63));
+}
+.line{
+    position: absolute;
+    border-left: 2px solid #EB4600;
+    border-bottom: 2px solid #EB4600;
+    border-bottom-left-radius: 10px;
+    width: 10em;
+    height: 15em;
+    background-color: transparent;
+    left: 40%;
+    top: 45%;
+}
+.line::before{
+    content: '';
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #EB4600;
+    position: absolute;
+    left: -0.55em;
+    top: -0.4em;
+}
+
+.line::after{
+    content: '';
+    width: 1em;
+    height: 1em;
+    bottom: -0.5em;
+    right: -0.5em;
+    border-radius: 50%;
+    background-color: #EB4600;
+    position: absolute;
+}
