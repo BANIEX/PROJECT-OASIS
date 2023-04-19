@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    overflow: 0;
+    box-sizing: border-box;
+}
+.footer__con{
+    background: #010422;
+    color: white;
+    padding: 1em 3em 2em 3em;
+}
+.footer__details{
+    display: grid;
+    grid-template-columns: 46% 27% 27%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.footer__logo{
+    position: relative;
+    margin-bottom: 2em;
+}
+.footer__logo p:nth-child(1){
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    left: 30px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.0188px;
+    line-height: 103.5%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.81)
+}
+.footer__logo p:last-child{
+    width: 188px;
+    height: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.0188px;
+    line-height: 103.5%;
+    text-align: center;
+    letter-spacing: 0.72em;
+    color: #FFFFFF;
+}
+
+.detail{
+    width: 426px;
+    height: 63px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 151.5%;
+    color: #FFFFFF;
+    margin-bottom: 2em;
+}
+.icon__con{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    background-color: #FFFFFF;
+    color: #010422;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.icon2{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+.icon3{
+    background-color: #010422;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1px;
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;  
+}
+
+.footer__li h3{
+    width: 90px;
+    height: 25px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125.5%;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+.footer__li ul li{
+    list-style-type: none;
+    width: 130.24px;
+    height: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.7462px;
+    line-height: 151.5%;
+    color: #FFFFFF;
+}
+.footer__line hr{
+    margin-bottom: 1em;
+}

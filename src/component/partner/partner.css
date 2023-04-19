@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.partner{
+    padding: 3em;
+
+}
+.partner h1{
+    text-align: center;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 125.5%;
+    letter-spacing: -0.05em;
+    color: #00084A;
+    margin-bottom: 1em;
+}
+.partner__image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.partner__image img{
+    padding: 2em;
+}
