@@ -25,26 +25,28 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='footer__li'>
-          <h3>Company</h3>
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Support</li>
-            <li className='donate'>Donate</li>
-          </ul>
-        </div>
+        <div className='footer__section'>
+          <div className='footer__li'>
+            <h3>Company</h3>
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Support</li>
+              <li className='donate'>Donate</li>
+            </ul>
+          </div>
 
-        <div className='footer__li'>
-          <h3>Service</h3>
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Support</li>
-            <li className='donate'>Donate</li>
-          </ul>
+          <div className='footer__li'>
+            <h3>Service</h3>
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Support</li>
+              <li className='donate'>Donate</li>
+            </ul>
+          </div>
         </div>
       </div>
      <div className='footer__line'>

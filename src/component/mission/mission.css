@@ -26,7 +26,7 @@
 .mission{
     display: flex;
     flex-direction: column;
-    width: 23em;
+    max-width: 23em;
     justify-content: center;
 }
 .mission h2{
@@ -55,6 +55,12 @@
     text-align: end;
     margin-right: 2em;
 }
+.img__first{
+    width: 100%;
+}
+.img__second{
+    width: 100%
+}
 .second h2::before{
     content: '+';
     display: flex;
@@ -71,6 +77,7 @@
     background: rgba(141, 0, 153, 0.63);
     filter: drop-shadow(0px 16.5926px 27.2593px rgba(141, 0, 153, 0.63));
 }
+
 .line{
     position: absolute;
     border-left: 2px solid #EB4600;
@@ -103,3 +110,61 @@
     background-color: #EB4600;
     position: absolute;
 }
+@media only screen and (max-width: 1450px){
+    .line{
+        width: 6em;
+        display: none;
+    }
+}
+@media only screen and (max-width: 750px){
+    .line{
+        display: none;
+    }
+    .mission__first{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+    }
+    .mission__second{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    .first{
+        margin-left: 0;
+    }
+    .second{
+        text-align: start;
+        margin-right: 0;
+    }
+    .mission h2{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .mission{
+        margin-bottom: 1em;
+    }
+}
+
+
+/* @media only screen and (max-width: 458px){
+    .first{
+        max-width: 21.5em;
+    }
+}
+@media only screen and (max-width: 416px){
+    .first{
+        max-width: 18em;
+    }
+}
+@media only screen and (max-width: 390px){
+    .first{
+        max-width: 16em;
+
+    }
+} */

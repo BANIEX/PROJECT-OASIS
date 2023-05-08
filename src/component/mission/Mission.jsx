@@ -8,7 +8,7 @@ const Mission = () => {
     <div className='mission__con'>
       <section className='mission__first'>
         <div>
-          <img src={Ellipse287} alt='pic' />
+          <img className='img__first' src={Ellipse287} alt='pic' />
         </div>
         <div className='mission first'>
           <h2>Our Mission</h2>
@@ -26,7 +26,7 @@ const Mission = () => {
           <p>Our passion was borne out of the need to reduce the high rates of death and enormous burden that stems from a ravaging invasion of the non communicable diseases in Nigeria.</p>
         </div>
         <div>
-          <img src={Ellipse2893} alt="pic" />
+          <img className='img__second'src={Ellipse2893} alt="pic" />
         </div>
       </section>
     </div>
