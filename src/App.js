@@ -5,7 +5,7 @@ import { Activity, Footer, Header, Mission, Nav, Partner } from './component/Ind
 function App() {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Header />
       <Mission />
       <Activity />
